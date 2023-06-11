@@ -1,0 +1,22 @@
+{
+  "name": "mineroyale",
+  "version": "1.0.0",
+  "description": "competitive minesweeper with socket io",
+  "main": "server.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server4.js"
+  },
+  "keywords": [
+    "minesweeper"
+  ],
+  "author": "rdr2",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "math.js": "^1.1.46",
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.4.1"
+  }
+}
